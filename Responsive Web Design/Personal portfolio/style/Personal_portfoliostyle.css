@@ -1,0 +1,53 @@
+body {
+  color: black;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 100px;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navbar a:visited {
+  color: inherit;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+}
+
+
+#projects {
+  height: 500px;
+  border-top: 1px solid black;
+}
+
+#projects a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+#projects a:focus,#projects a:hover {
+  outline: 3px solid orange;
+}
+
+#projects a:active {
+  color: red;
+  text-decoration: crossed out;
+}
+
+@media (max-width: 360px) {
+  #projects {
+    font-size: 12px;
+  }
+}

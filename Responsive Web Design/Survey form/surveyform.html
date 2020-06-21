@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/surveyform.css" >
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Gotu">
+</head>
+<body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script><br>
+
+
+<main id="main" class="container">
+
+  <h1 id="title">Interesting title</h1>
+
+  <p id="description" class="description">A short explanation of what this form is supposed to accomplish.</p>
+
+  <form id="survey-form" >
+    <div class="form-question">
+      <label for="name" id="name-label"><p>Name</p></label>
+        <input
+               name="name"
+               type="text"
+               id="name"
+               class="input-text"
+               placeholder="Enter your name here..."
+               required>
+
+    </div><br>
+
+    <div class="form-question">
+      <label for="email" id="email-label"><p>Email</p></label>
+      <input
+             name="email"
+             type="email"
+             id="email"
+             class="input-text"
+             placeholder="Enter your email here..."
+             required>
+    </div><br>
+
+    <div class="form-question">
+      <label for="number" id="number-label"><p>How much would you like to pay?</p></label>
+      <p id="dollar-sign">$</p><input
+            name="number"
+            type="number"
+            id="number"
+            class="input-text"
+            placeholder="Enter an amount greater than 0"
+            min="0.01"
+            max="100"
+            step="0.01"
+            required>
+      </div><br>
+
+      <div class="form-question">
+      <label for="dropdown" id="dropdown-label"><p>Select one:</p> </label>
+       <select
+              name="dropdown"
+              id="dropdown">
+         <option disabled selected value="selectnone">Select current role</option>
+         <option value="optionX">optionX</option>
+         <option value="optionY">optionY</option>
+         <option value="optionZ" >optionZ</option>
+      </select>
+  </div><br>
+
+    <div class="form-question">
+      <p id="radio-label">Pick one:<br></p>
+      <label><input
+             name="radio"
+             type="radio"
+             class="input-radio"
+             value="criteriaA">A</label><br>
+        <label><input
+             name="radio"
+             type="radio"
+             class="input-radio"
+             value="criteriaB">B</label><br>
+        <label><input
+             name="radio"
+             type="radio"
+             class="input-radio"
+             value="neither"
+             checked>neither</label>
+    </div><br>
+
+    <div class="form-question">
+      <p id="checkbox-label">Choose any that apply:</p>
+      <label>
+      <input
+             name="checkbox"
+             type="checkbox"
+             class="input-checkbox"
+             value="criterion01"
+             checked>criterion01</label><br>
+
+        <label><input
+             name="checkbox"
+             type="checkbox"
+             class="input-checkbox"
+             value="criterion02">criterion02</label><br>
+
+        <label><input
+             name="checkbox"
+             type="checkbox"
+             class="input-checkbox"
+             value="criterion03">criterion03</label><br>
+
+       <label><input
+             name="checkbox"
+             type="checkbox"
+             id="checkbox"
+             class="input-checkbox"
+             value="criterion04">criterion04</label><br>
+    </div>
+
+    <div class="form-question">
+      <p id="textarea-label">Comments?</p>
+
+        <textarea placeholder="Enter a comment or write more about yourself here..." id="textarea" name="textarea"></textarea>
+
+    </div><br>
+
+    <div class="form-question">
+    <button type="submit" id="submit">Submit</button>
+  </div><br>
+
+  </form>
+  </main>
+  </body>

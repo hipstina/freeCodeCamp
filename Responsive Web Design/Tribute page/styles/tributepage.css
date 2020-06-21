@@ -1,0 +1,135 @@
+html {
+
+}
+
+body {
+  background: #EFEFEF;
+  font-family: "helvetica nueue", Arial, sans-serif;
+
+}
+
+h1 {
+  color: #302c2b;
+  word-spacing: 50px;
+  letter-spacing: 8px;
+  font-size: 70px;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+  color: #9b1c35;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 10px
+}
+
+h3 {
+  clear: both;
+  height: 250px;
+  color: #9b1c35;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 100px;
+}
+
+#main {
+  padding: 20px;
+}
+
+
+
+#title {
+  width: 50%;
+  height: auto;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subtitle {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+#img-div {
+  width: 50%;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: none;
+  align-content: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+#img-caption {
+  padding: 0px 10px 0px 0px;
+  text-align: right;
+  color: gray;
+  font-size: 10px;
+}
+
+#img-caption p {
+  font-size: 9px;
+}
+
+
+#tribute-info {
+  text-align: justify;
+  height: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+p {
+  font-style: normal;
+  font-family: "Helvetica Nueue", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.firstcharacter {
+  color: #9b1c35;
+  float: left;
+  font-family: "helvetica nueue", Arial, sans-serif;
+  font-size: 70px;
+  line-height: 55px;
+  padding-bottom: 1px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: bold;
+}
+
+#tribute-link {
+  clear: both;
+  font-style: normal;
+}
+
+a {
+  color: #9b1c35;
+}
+
+a:hover {
+  color: black;
+}
+
+.url-musicvideo {
+
+}

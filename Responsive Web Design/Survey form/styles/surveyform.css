@@ -1,0 +1,209 @@
+
+html {
+
+}
+
+body {
+  background: #EFEFEF;
+  font-family: "Gotu", sans-serif;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-color: #EFEFEF;
+  border: 1px solid #0000B5;
+  width: 100%;
+  margin: 70px auto 20px auto;
+  box-sizing: border-box;
+ }
+
+  @media (min-width: 540px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+
+   max-width: 580px;
+   height: auto;
+}
+
+#name-label, #email-label,  #radio-label  {
+  height: 25px;
+  font-weight: bolder;
+  background-color: inherit;
+  display: block;
+  margin-top: 20px;
+}
+
+#dropdown-label, #number-label, #textarea-label, #checkbox-label {
+  height: 25px;
+  font-weight: bolder;
+  background-color: inherit;
+  display: block;
+  margin-top: 30px;
+}
+
+#survey-form {
+  background-color: #EFEFEF;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-question {
+  display: block;
+  background-color: #EFEFEF;
+  margin: 0px 40px 0px 40px;
+  padding: 0px 0px 0px 0px;
+}
+
+.input-text {
+  display: inline-block;
+  width: 95%;
+  height: 2.375rem;
+  padding: 0.375rem 0.375rem;
+  background-color: #EFEFEF;
+  border-bottom: 1px solid #0000B5;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  maxlength="50"
+}
+
+#number {
+  width: 92%;
+  display: inline;
+  height: 2.375rem;
+  padding: 0.375rem 0.375rem;
+}
+
+.input-text:focus {
+  outline: 0;
+  background-color: #EFEFEF;
+}
+
+h1
+{
+  font-size: 50px;
+  color: #0000B5;
+  text-align: center;
+  font-family: inherit;
+}
+
+p {
+  color: #0000B5;
+  font-size: 18px;
+  text-align: left;
+  width: inherit;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+#dollar-sign {
+  display: inline;
+  color: #0000B5;
+  font-size: 20px;
+}
+
+label {
+ display: flex;
+ background-color: inherit;
+ height: 5px;
+ width: 100%;
+ color: #0000B5;
+ line-height: 20px 0px;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #EFEFEF;
+}
+
+input  {
+  font-size: 20px;
+  font-weight: bolder;
+  caret-color: #0000B5;
+}
+
+::placeholder {
+  color: #0000B5;
+  opacity: 40%;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+#dropdown {
+  background-color: #EFEFEF;
+  color: #0000B5;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 16px;
+  width: 70%;
+  padding-top: 10px;
+  border: 1px solid #0000B5;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  border: 0.5px solid #0000B5;
+  caret-color: #0000B5;
+  padding: 10px;
+  box-sizing: border-box;
+  maxlength: 500;
+  resize: none;
+  overflow: auto;
+}
+
+ .input-checkbox, .input-radio {
+  height: 22px;
+  width: 28px;
+  margin: 2px 0px;
+  display: block;
+}
+
+.description {
+  margin: 10px auto 60px auto;
+  width: 90%;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+button {
+  color: #EFEFEF;
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px auto 0px auto;
+  background-color: #0000B5;
+  padding-top: 7px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+}
+
+button:hover {
+  border: 1px solid #0000B5;
+  box-sizing: border-box;
+}
