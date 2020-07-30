@@ -3,5 +3,19 @@
 .DS_Store
 *.DS_Store
 *.swp
-/CashRegister
-/practiceProbs
+
+# Untracked directories:
+CashRegister
+practiceProbs
+
+# Untracked files:
+Javascript algorithms.js
+Javascript Algorithms and Data Structures/practice05.js
+practice10.js
+practiceProbs.html
+practiceProbs.js
+profile-lookup.js
+use-recursion-to-create-a-countdown.js
+use-recursion-to-create-a-range-of-numbers.js
+use-recursion-to-create-a-range-of-numbers.txt
+use-the-rest-parameter-with-function-parameters.js 
