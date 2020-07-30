@@ -3,7 +3,5 @@
 .DS_Store
 *.DS_Store
 *.swp
-Javascript/ Algorithms\ and\ Data\ Structures/CashRegister
-Javascript/ Algorithms\ and\ Data\ Structures/practiceProbs
-Javascript Algorithms and Data Structures/CashRegister
-Javascript Algorithms and Data Structures/practiceProbs
+/CashRegister
+/practiceProbs
