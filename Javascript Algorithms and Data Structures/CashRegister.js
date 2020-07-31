@@ -59,7 +59,7 @@ function checkCashRegister(price, cash, cid) {
         }, {}); 
         
     // ===============================================================
-    // calculate total & itemized exactChange components
+    // calculate total & itemized change components
     // ===============================================================
         
         // total amount due. Unary minus signs added to handle subtraction
@@ -94,7 +94,6 @@ function checkCashRegister(price, cash, cid) {
                 arr.push([i.type, changeDueTally]);
               } 
               return arr;
-            
         },[]);
     
     // ===============================================================
@@ -126,10 +125,9 @@ function checkCashRegister(price, cash, cid) {
             cashRegisterOutput.status = "OPEN";
             cashRegisterOutput.change = exactChange;
         }
+        
         console.log(cashRegisterOutput); // peek
-    
         return cashRegisterOutput;
-       
     }
     
     // test cases
