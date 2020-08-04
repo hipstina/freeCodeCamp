@@ -89,7 +89,7 @@ function checkCashRegister(price, cash, cid) {
                 changeDueVal = roundedSum(changeDueVal);
             }
            
-            // at the end of each iteration, the empty array will accumulate another denomination.type and running changeDueTally
+            // at the end of each iteration, the empty array will accumulate another denomination.
             if (changeDueTally > 0) {
                 arr.push([i.type, changeDueTally]);
               } 
@@ -110,7 +110,7 @@ function checkCashRegister(price, cash, cid) {
             return cidTotal;
         }, 0); 
     
-        // Calculate the statuses
+        // Calculate status
         if (registerSum < changeDue) {
             cashRegisterOutput.status = "INSUFFICIENT_FUNDS";
             cashRegisterOutput.change = [];
@@ -125,7 +125,7 @@ function checkCashRegister(price, cash, cid) {
             cashRegisterOutput.status = "OPEN";
             cashRegisterOutput.change = exactChange;
         }
-        
+
         console.log(cashRegisterOutput); // peek
         return cashRegisterOutput;
     }
